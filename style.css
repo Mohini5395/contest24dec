@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* margin: 30px;
+    background-color: black; */
+    position: relative;
+    width: 1728px;
+    height: 1117px;
+
+    background: #000000;
+}
+
+h3 {
+    color: white;
+    position: absolute;
+    width: 378px;
+    height: 29px;
+    left: 58px;
+    top: 105px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+}
+
+#dropdown {
+    box-sizing: border-box;
+    position: absolute;
+    width: 196px;
+    height: 58px;
+    left: 58px;
+    top: 199px;
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    color: white;
+    font-size: 30px;
+}
+
+#filterBtn {
+    position: absolute;
+    width: 226px;
+    height: 58px;
+    left: 58px;
+    top: 583px;
+
+    background: #FFFFFF;
+}
+
+h4 {
+    position: absolute;
+    width: 175px;
+    height: 29px;
+    left: 58px;
+    top: 762px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+}
+
+#nameText {
+    box-sizing: border-box;
+    color: white;
+
+    position: absolute;
+    width: 531px;
+    height: 56px;
+    left: 58px;
+    top: 886px;
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+#enterName {
+    position: absolute;
+    width: 119px;
+    height: 25px;
+    left: 58px;
+    top: 846px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+
+}
+
+#enterProfession {
+    position: absolute;
+    width: 157px;
+    height: 25px;
+    left: 647px;
+    top: 846px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+
+}
+
+#professionText {
+    box-sizing: border-box;
+    background-color: #000000;
+
+    position: absolute;
+    width: 531px;
+    height: 56px;
+    left: 647px;
+    top: 886px;
+    color: white;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+#enterAge {
+    position: absolute;
+    width: 133.35px;
+    height: 25px;
+    left: 1220px;
+    top: 846px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+
+}
+
+#ageText {
+    box-sizing: border-box;
+    position: absolute;
+    width: 451px;
+    height: 56px;
+    left: 1220px;
+    top: 886px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: #000000;
+    color: white;
+}
+
+#addUser {
+    position: absolute;
+    width: 226px;
+    height: 58px;
+    left: 58px;
+    top: 983px;
+
+    background: #FFFFFF;
+
+}
+
+#result {
+    color: white;
+    /* border: 2px solid white;  */
+    display: inline-block;
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 536px;
+    height: 59px;
+    left: 58px;
+    top: 306px;
+
+    /* border: 1px solid #FFFFFF; */
+    border-radius: 10px;
+
+}
